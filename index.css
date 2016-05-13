@@ -1,0 +1,30 @@
+* {
+  font-family: 'Audiowide', cursive;
+}
+
+#column {
+  width: 480px;
+  margin: 0 auto;
+}
+
+#message-panel {
+  font-size: 2em;
+  background: yellow;
+}
+
+table.board {
+  width: 100%;
+}
+
+button.square {
+  width: 150px;
+  height: 150px;
+  font-size: 6em;
+  color: white;
+  background:url(https://raw.github.com/mmoustafa/Chalkboard/master/img/bg.png);
+  border: 1px solid black;
+}
+
+button.square:disabled {
+  color: black;
+}
