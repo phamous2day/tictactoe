@@ -5,3 +5,7 @@ Integrated Google fonts to give the X O characters a more digital look. Used cha
 
 Future Goals:
 I'm planning on making a reset/start over button to clear the values. If time permits I may check of it's possible to enable sound effects with the "on.click" 
+
+-Reset button made. I thought about clearing the values in the game, but my workaround was to make the reset button "refresh the page" as a way to renew the game.
+
+New goal is to make a sort of AI to play against the user and to keep score.
