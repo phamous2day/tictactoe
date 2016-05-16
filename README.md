@@ -9,3 +9,14 @@ I'm planning on making a reset/start over button to clear the values. If time pe
 -Reset button made. I thought about clearing the values in the game, but my workaround was to make the reset button "refresh the page" as a way to renew the game.
 
 New goal is to make a sort of AI to play against the user and to keep score.
+
+Might want to make the fonts change color. Found this nifty trick on stackoverflow:
+
+function getRandomColor() {
+    var letters = '0123456789ABCDEF'.split('');
+    var color = '#';
+    for (var i = 0; i < 6; i++ ) {
+        color += letters[Math.floor(Math.random() * 16)];
+    }
+    return color;
+}
