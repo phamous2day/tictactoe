@@ -26,5 +26,5 @@ button.square {
 }
 
 button.square:disabled {
-  color: black;
+  color: white;
 }
